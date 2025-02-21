@@ -1,0 +1,20 @@
+1.	Initialize Git in the project:
+
+git init 
+
+2.	Create a .gitignore file to exclude unnecessary files from being committed:
+
+echo node_modules/ > .gitignore echo .env > .gitignore
+3.	Add files to the staging area:
+
+git add .
+
+4.	Commit the initial codebase:
+
+git commit -m "Initial commit of multi-cloud project  structure"
+
+5.	Create a GitHub repository (via GitHub's web interface).
+
+6.	Push the local repository to GitHub:
+
+git remote add origin <repository_url> git push -u origin master
