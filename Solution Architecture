@@ -1,0 +1,46 @@
+
+1.	Create the main project folder: 
+•	The root folder will house the project’s files and subdirectories.
+
+mkdir multi-cloud-app
+cd multi-cloud-app
+
+
+2.	Set Up Subdirectories for Modularity:
+
+•	Organize code into distinct folders for frontend, backend, configuration, and infrastructure.
+
+mkdir public server terraform kubernetes helm-chart
+
+mkdir public/css public/js server/controllers server/models server/routes
+
+
+3.	Initialize Required Files :
+•	These files establish the foundational structure and include placeholders for code and configuration
+echo "/* Styles for the application */" > public/css/style.css
+echo "// JavaScript for application logic" > public/js/app.js
+echo "<!DOCTYPE html><html><head></head><body></body></html>" > public/index.html
+echo "// Backend server logic" > server/server.js
+echo "# Multi-Cloud Application Documentation" > README.md
+
+4.	 Dockerfile Creation :
+
+•	A Dockerfile defines the image used to containerize the application.
+
+echo "FROM node:14\nWORKDIR /app\nCOPY . .\nRUN npm install\nCMD [ \"npm\", \"start\" ]" > Dockerfile
+
+
+5.	 Helm Chart Setup :
+•	Use Helm charts to standardize Kubernetes deployments.
+mkdir -p helm-chart/templates
+
+echo "apiVersion: v2\nname: my-app\nversion: 0.1.0" > helm-chart/Chart.yaml
+
+echo "replicaCount: 2" > helm-chart/values.yaml
+
+6.	Terraform Initialization:
+•	Terraform scripts automate the creation of cloud resources.
+echo "provider \"aws\" {\n  region = \"us-east-1\"\n}" > terraform/main.tf
+
+echo "variable \"instance_type\" {\n  default = \"t2.micro\"\n}" > terraform/variables.tf
+echo "output \"instance_id\" {\n  value = aws_instance.my_instance.id\n}" > terraform/outputs.tf
