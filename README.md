@@ -17,3 +17,5 @@ Firstly, developer writes the Docker File and push it to GITHUB Repository. If t
 # DevOps Tools-
 ## JENKINS
 A DevOps software development method called continuous integration involves developers regularly merging their code changes into a common repository, which is followed by the execution of automated builds and tests. Developers frequently utilise Jenkins, an Open-Source Continuous Integration (CI) tool, to automate the testing and deployment of their apps. A Webhook is a tool that enables a Jenkins project to be built automatically in response to a commit that is pushed to a Git repository.
+## Ansible 
+Ansible is defined as an open-source, cross-platform tool for resource provisioning automation that DevOps professionals popularly use for continuous delivery of software code by taking advantage of an “infrastructure as code” approach.
