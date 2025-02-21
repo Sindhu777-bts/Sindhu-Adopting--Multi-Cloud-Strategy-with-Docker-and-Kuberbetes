@@ -1,0 +1,15 @@
+/app/
+├── Dockerfile
+├── kubernetes/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── ingress.yaml
+├── helm-chart/
+│   ├── templates/
+│   ├── values.yaml
+│   └── Chart.yaml
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+└── README.md
