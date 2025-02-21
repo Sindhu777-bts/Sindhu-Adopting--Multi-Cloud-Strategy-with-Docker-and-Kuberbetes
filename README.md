@@ -5,4 +5,4 @@ INTRODUCTION TO DOCKER
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. Docker is a software platform that allows you to build, test, and deploy applications quickly. Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.Docker registries are used to host and distribute Docker Images. Docker Hub is Docker's official cloud-based registry. The free version of Docker Hub allows for one private repository. Nonpaying users are otherwise restricted to public repositories. .
 
 
-
+![image alt](https://github.com/Sindhu777-bts/Sindhu-Adopting--Multi-Cloud-Strategy-with-Docker-and-Kuberbetes/blob/0c97017a1cd494f4d80f69e4007a99f2d5fd0b19/WhatsApp%20Image%202025-02-21%20at%209.13.04%20PM.jpeg)
